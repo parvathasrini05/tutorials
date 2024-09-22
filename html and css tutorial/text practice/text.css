@@ -1,0 +1,76 @@
+p{
+    font-family: Teko;
+    margin-top: 0px;
+    margin-bottom:0px;
+} 
+.heading{
+    color:rgb(19, 13, 15);
+    font-family: Teko;
+    font-size:20px ;
+    font-weight:bold;
+    font-style:italic;
+    width:450px;
+    text-decoration:underline;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 14px;
+    }
+    .subhead{
+    color:rgb(167, 164, 165);
+    font-size:15px ;
+    font-weight:bold;
+    margin-bottom:12px;
+    }
+    .author{
+        
+        color: rgb(141, 136, 136);
+        font-size:15px ;
+        margin-bottom: 15px;
+    }
+    .descrip{
+        font-family:teko;
+        font-size:15px ;
+        width:400px;
+        line-height:30px;
+        margin-bottom: 50px;
+    }
+    .enroll{
+        background-color:rgb(47, 117, 215);
+        color: white;
+        font-weight:bold;
+        font-family: Teko;
+        border-radius: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom:20px ;
+        transition:boxshadow 0.15s;
+    }
+    .enroll:hover{
+        box-shadow: 10px 10px 30px rgba(0,0,1,1.12);
+    }
+    .enroll:active{
+        box-shadow: 10px 10px 30px rgba(0,0,1,0.15);
+    }
+    .d1{
+        margin-top:150px;
+        font-size:15px ;
+        background-color: rgb(228, 110, 110);
+        color:aliceblue;
+        text-align: center;
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .span{
+        margin-left: 8px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .span:hover{
+        text-decoration: underline;
+        opacity:0.5px;
+    }
+    .span:active{
+       text-shadow: 2px 2px 2px rgba(32, 22, 22,1.15);
+       text-decoration: solid;
+    }
